@@ -1,0 +1,5 @@
+protoPayload.methodName="SetIamPolicy"
+protoPayload.serviceData.policyDelta.bindingDeltas.action="ADD"
+(protoPayload.serviceData.policyDelta.bindingDeltas.role="roles/owner" 
+ OR protoPayload.serviceData.policyDelta.bindingDeltas.role="roles/editor"
+ OR protoPayload.serviceData.policyDelta.bindingDeltas.role="roles/iam.securityAdmin")
